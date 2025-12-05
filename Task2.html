@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=devive-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkAge(age){
+            return age>18 ? true: confirm('Did parents allow you');
+
+        }
+        console.log(checkAge(23));
+
+        function checkAge1(age){
+            return (age > 18) || confirm('Did parents allow ? - OR operator');
+
+        }
+        console.log(checkAge1(23));
+    </script>
+</body>
+</html>
